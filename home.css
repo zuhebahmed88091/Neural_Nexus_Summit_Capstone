@@ -9,37 +9,41 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
-    /* Ham starts */
-    .ham-popup {
-        background: #343a40;
-        position: fixed;
-        height: 98%;
-        width: 100%;
-        z-index: 99;
-        display: none;
-   }
+  /* Ham starts */
+  .ham-popup {
+    background: #343a40;
+    position: fixed;
+    height: 98%;
+    width: 100%;
+    z-index: 99;
+    display: none;
+  }
 
-   .ham-popup-ul {
+  .ham-popup-ul {
     padding-top: 10%;
-   }
-   .cross-btn {
-        border: none;
-        background: none;
-        float: right;
-   }
-   .ham-popup-item {
-        list-style: none;
-        padding-right: 3rem;
-        padding-top: 1.6%;
-    }
-   .ham-popup-link {
-        text-decoration: none;
-        color: #f8f9fa;
-        font-weight: 800;
-        font-size: 2rem;
-   }
+  }
 
-    /* Ham Ends */
+  .cross-btn {
+    border: none;
+    background: none;
+    float: right;
+  }
+
+  .ham-popup-item {
+    list-style: none;
+    padding-right: 3rem;
+    padding-top: 1.6%;
+  }
+
+  .ham-popup-link {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  /* Ham Ends */
+
   /* nav banner starts */
   .nav-banner {
     display: none;
@@ -79,6 +83,7 @@ html {
   .navbar-wrapper {
     display: none;
   }
+
   .navbar {
     position: inherit;
   }
@@ -153,7 +158,7 @@ html {
   }
 
   .main-program-header {
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
   }
 
@@ -168,6 +173,7 @@ html {
     font-size: 1.27rem;
     padding-top: 8.7%;
   }
+
   .program-content {
     display: flex;
     background: rgba(255, 255, 255, 0.1);
@@ -177,17 +183,19 @@ html {
   .image-wrap {
     display: flex;
   }
+
   .program-content h3 {
     display: flex;
     align-items: center;
     padding-top: 4%;
-    color: #FF5438;
+    color: #ff5438;
     font-weight: 700;
     font-size: 0.9rem;
     margin-left: 3.4%;
   }
+
   .program-content p {
-    color: #FFFFFF;
+    color: #fff;
     font-weight: 700;
     font-size: 0.66rem;
     padding-top: 6%;
@@ -195,20 +203,23 @@ html {
     letter-spacing: 0.06em;
   }
 
-  .join-btn{
+  .join-btn {
     text-align: center;
     padding-top: 2.5rem;
   }
+
   .join {
-    background: #FF4F38;
-    color: #FFFFFF;
+    background: #ff4f38;
+    color: #fff;
     margin-bottom: 9.7%;
   }
 
   .see-program {
     display: none;
   }
+
   /* Main program ends */
+
   /* Featured Speaker Starts */
 
   .speaker-intro {
@@ -219,7 +230,7 @@ html {
 
   .speaker-intro-border {
     width: 2rem;
-    border-bottom: 1px solid #A04038;
+    border-bottom: 1px solid #a04038;
     margin: 0 auto 2.5rem;
   }
 
@@ -240,13 +251,13 @@ html {
   }
 
   .speaker h3 {
-    color: #000000;
+    color: #000;
     font-weight: 700;
     font-size: 0.95rem;
   }
 
   .designition {
-    color: #F78C89;
+    color: #f78c89;
     font-weight: 700;
     font-size: 0.63rem;
     margin: 0;
@@ -255,11 +266,11 @@ html {
 
   .speaker-border {
     width: 2rem;
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid #d9d9d9;
   }
 
   .speaker-work {
-    color: #000000;
+    color: #000;
     font-weight: 700;
     font-size: 0.6rem;
     padding-top: 0.8rem;
@@ -267,9 +278,10 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
-    .ham-popup {
-        display: none;
-    }
+  .ham-popup {
+    display: none;
+  }
+
   /* nav banner starts */
   .nav-banner {
     background: #3e3e3e;
@@ -308,7 +320,7 @@ html {
   }
 
   #no-wrap {
-    flex-wrap: nowrap ;
+    flex-wrap: nowrap;
   }
 
   .navbar-brand {
@@ -319,21 +331,23 @@ html {
   .navbar-brand img {
     max-width: 50%;
   }
+
   .navbar-ul {
     display: flex;
   }
+
   .navbar-item {
     padding-right: 3rem;
     padding-top: 1.6%;
     list-style: none;
   }
+
   .navbar-link {
     color: #868686;
     font-weight: 800;
     font-size: 0.96rem;
     text-decoration: none;
   }
-  
 
   /* navbar ends */
 
@@ -403,10 +417,10 @@ html {
 
   .container {
     width: auto;
-}
+  }
 
   .main-program-header {
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
   }
 
@@ -437,19 +451,21 @@ html {
 
   .program-content h3 {
     padding-top: 4%;
-    color: #FF5438;
+    color: #ff5438;
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
   }
+
   .program-content p {
-    color: #FFFFFF;
+    color: #fff;
     font-weight: 700;
     font-size: 0.78rem;
     padding-top: 6%;
     letter-spacing: 0.06em;
     text-align: center;
   }
+
   .join-btn {
     display: none;
   }
@@ -460,12 +476,14 @@ html {
     padding-bottom: 7%;
   }
 
-  .see-program a{
-    color: #FFFFFF;
+  .see-program a {
+    color: #fff;
     font-weight: 400;
     font-size: 1.25rem;
   }
+
   /* Main program ends */
+
   /* Featured Speaker Starts */
 
   .speaker-intro {
@@ -475,17 +493,19 @@ html {
 
   .speaker-intro-border {
     width: 4rem;
-    border-bottom: 1px solid #A04038;
+    border-bottom: 1px solid #a04038;
     margin: 0 auto 2.5rem;
   }
 
   .speaker-wrapper {
     padding-left: 9%;
   }
+
   .speaker {
     display: flex;
     margin-bottom: 3.5%;
   }
+
   .speaker-details {
     padding-left: 4.2%;
     display: flex;
@@ -494,13 +514,13 @@ html {
   }
 
   .speaker h3 {
-    color: #000000;
+    color: #000;
     font-weight: 700;
     font-size: 1.5rem;
   }
 
   .designition {
-    color: #F78C89;
+    color: #f78c89;
     font-weight: 700;
     font-size: 1rem;
     margin: 0;
@@ -509,14 +529,13 @@ html {
 
   .speaker-border {
     width: 3rem;
-    border-bottom: 2px solid #D9D9D9;
+    border-bottom: 2px solid #d9d9d9;
   }
 
   .speaker-work {
-    color: #000000;
+    color: #000;
     font-weight: 700;
     font-size: 0.88rem;
     padding-top: 0.8rem;
   }
-  
 }
