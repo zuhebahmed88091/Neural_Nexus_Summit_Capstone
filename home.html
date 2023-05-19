@@ -27,19 +27,62 @@
         </ul>
     </section>
     <!-- nav banner ends -->
+    <!-- Hambar starts -->
+    <section class="ham-popup">
+      <button class="cross-btn">
+        <img src="./properties/cross.svg" alt="">
+      </button>
+      <ul class="ham-popup-ul">
+        <li class="ham-popup-item">
+          <a class="ham-popup-link" href="#">About</a>
+        </li>
+        <li class="ham-popup-item">
+          <a class="ham-popup-link" href="#">Program</a>
+        </li>
+        <li class="ham-popup-item">
+          <a class="ham-popup-link" href="#">Join</a>
+        </li>
+        <li class="ham-popup-item">
+          <a class="ham-popup-link" href="#">Sponsor</a>
+        </li>
+        <li class="ham-popup-item">
+          <a class="ham-popup-link" href="#">News</a>
+        </li>
+      </ul>
+    </section>
+    <!-- Hambar Ends -->
 
     <!-- navbar starts -->
     <section class="navbar-intro">
       <section class="container">
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+        <nav class="navbar">
+            <div id="no-wrap" class="container-fluid navbar-content">
+              <a class="navbar-brand" href="home.html">
                 <img src="./properties/mylogo.png" alt="logo">
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="hambar">
                 <img src="./properties/mobile_menu 1.png" alt="">
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="navbar-wrapper">
+                <ul class="navbar-ul">
+                  <li class="navbar-item">
+                    <a class="navbar-link" href="#">About</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a class="navbar-link" href="#">Program</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a class="navbar-link" href="#">Join</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a class="navbar-link" href="#">Sponsor</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a class="navbar-link" href="#">News</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <div class=" navbar-collapse">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">About</a>
@@ -57,11 +100,11 @@
                     <a class="nav-link">News</a>
                   </li>
                 </ul>
-              </div>
+              </div> -->
             </div>
             </div>
         </nav>
-    </section>
+      </section>
     </section>
     <!-- navbar ends -->
     <!-- Conference intro starts -->
@@ -81,9 +124,82 @@
       </article>
     </section>
     <!-- Conference intro ends -->
+    <!-- Main program starts -->
+    <article class="main-program">
+      <section class="main-program-wrapper container">
+        <section class="main-program-header">
+          <h2>Main Program</h2>
+          <div class="main-border"></div>
+        </section>
+        <section class="main-proram-contents container">
+          <div class="row">
+            <div class="program-content col-md-2">
+              <div class="image-wrap">
+                <img class="solo-content" src="./properties/lecture.svg" alt="lecture">
+              </div>
+              <h3>Lorem</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia iusto hic
+                nam vitae amet modi, natus repellat!
+              </p>
+            </div>
+            <div class="program-content col-md-2">
+              <div class="image-wrap">
+                <img class="solo-content" src="./properties/exhibition.svg" alt="exhibition">
+              </div>
+              <h3>Lorem</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia iusto hic
+                 nam vitae amet modi, natus repellat! 
+              </p>
+            </div>
+            <div class="program-content col-md-2">
+              <div class="image-wrap">
+                <img class="solo-content" src="./properties/forum.svg" alt="lecture">
+              </div>
+              <h3>Lorem</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia iusto hic
+                nam vitae amet modi, natus repellat! </p>
+            </div>
+            <div class="program-content col-md-2">
+              <div class="image-wrap">
+                <img class="solo-content" src="./properties/station.svg" alt="lecture">
+              </div>
+              <h3>Lorem</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia iusto hic
+                nam vitae amet modi, natus repellat</p>
+            </div>
+            <div class="program-content col-md-2">
+              <div class="image-wrap">
+                <img class="solo-content" src="./properties/ignite.svg" alt="lecture">
+              </div>
+              <h3>Lorem</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia iusto hic
+                nam vitae amet modi, natus repellat</p>
+            </div>
+          </div>
+          <div class="see-program">
+            <a href="#">SEE THE WHOLE PROGRAM</a>
+          </div>
+          <div class="join-btn">
+            <button type="button" class="join btn btn-lg" >Join Now!</button>
+          </div>
+        </section>  
+      </section>
+    </article>
+    <!-- Main Program Ends -->
+    <!-- Featured Speakers Strats -->
+    <article id="featured-speakers" class="container featured-speakers">
+      <section class="speaker-intro">
+        <h2>Featured Speakers</h2>
+        <div class="speaker-intro-border"></div>
+      </section>
+      <div id="speaker-wrapper" class="row speaker-wrapper">
+
+      </div>
+    </article>
+    <!-- Featured Speakers Ends -->
     
 
-
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
