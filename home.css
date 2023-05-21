@@ -16,6 +16,7 @@ html {
   .rigts {
     display: none;
   }
+
   /* Ham starts */
   .ham-popup {
     background: #343a40;
@@ -500,7 +501,7 @@ html {
   }
 
   .speaker-intro h2 {
-    color: #000000;
+    color: #000;
     font-weight: 400;
     font-size: 1.875rem;
   }
@@ -562,7 +563,7 @@ html {
   }
 
   .partner-intro h2 {
-    color: #8F8F91;
+    color: #8f8f91;
     font-weight: 400;
     font-size: 1.875rem;
     text-align: center;
@@ -583,6 +584,7 @@ html {
     width: 19%;
     padding-right: 3.125rem;
   }
+
   /* Rights Starts */
   .rigts {
     display: flex;
@@ -590,7 +592,7 @@ html {
     padding-top: 3.5%;
   }
 
-  .rigts img{
+  .rigts img {
     width: 20%;
   }
 
@@ -602,8 +604,9 @@ html {
   }
 
   .rights-msg h4 {
-    color: #000000;
+    color: #000;
     font-weight: 700;
   }
+
   /* Rights Ends */
 }
