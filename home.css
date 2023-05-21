@@ -9,6 +9,9 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
+  .partner {
+    display: none;
+  }
   /* Ham starts */
   .ham-popup {
     background: #343a40;
@@ -491,6 +494,12 @@ html {
     text-align: center;
   }
 
+  .speaker-intro h2 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.875rem;
+  }
+
   .speaker-intro-border {
     width: 4rem;
     border-bottom: 1px solid #a04038;
@@ -537,5 +546,36 @@ html {
     font-weight: 700;
     font-size: 0.88rem;
     padding-top: 0.8rem;
+  }
+
+  .partner {
+    background-color: #414246;
+  }
+
+  .partner-intro {
+    padding-top: 3.418%;
+  }
+
+  .partner-intro h2 {
+    color: #8F8F91;
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-align: center;
+  }
+
+  .partner-intro-border {
+    width: 4rem;
+    border-bottom: 2px solid rgb(239, 81, 60);
+    margin: 0 auto 2.8rem;
+  }
+
+  .partner-logo {
+    margin-left: 7.5rem;
+    padding-bottom: 2.431%;
+  }
+
+  .partner-logo img {
+    width: 19%;
+    padding-right: 3.125rem;
   }
 }
