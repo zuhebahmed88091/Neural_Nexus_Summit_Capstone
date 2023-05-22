@@ -9,14 +9,6 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
-  .partner {
-    display: none;
-  }
-
-  .rigts {
-    display: none;
-  }
-
   /* Ham starts */
   .ham-popup {
     background: #343a40;
@@ -231,6 +223,10 @@ html {
   }
   /* Summit Logo Ends */
   /* Past Summits Starts */
+  .summits {
+    display: flex;
+    flex-direction: column;
+  }
   .pastsummit-intro {
     text-align: center;
   }
@@ -239,7 +235,6 @@ html {
     color: #2C2C2C;
     font-weight: 700;
     font-size: 1.25rem;
-    padding-top: 8.8%;
     margin: 0;
   }
 
@@ -252,9 +247,6 @@ html {
 
   .pastsummit-description {
     text-align: center;
-    padding-left: 7.327%;
-    padding-right: 7.327%;
-    padding-bottom: 9.326%;
   }
 
   .pastsummit-description p {
@@ -265,25 +257,30 @@ html {
   }
 
   .first-summit {
-    background-image: url(./properties/first_summit.png);
+    background-image: linear-gradient(
+        rgba(200, 0, 0, 0.4),
+        rgba(220, 0, 0, 0.4)
+      ),
+      url(./properties/first_summit.png);
+    /* background-image: url(./properties/first_summit.png); */
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 5%;
   }
 
   .summits-year {
     text-align: center;
-    padding-top: 30%;
   }
 
   .summits-year h3 {
     font-weight: 800;
     color: #fff;
     font-size: 1.5rem;
+    padding-top: 16%;
   }
 
   .summits-area {
     text-align: center;
-    padding-bottom: 25%;
     color: #fff;
   }
 
@@ -291,18 +288,88 @@ html {
     font-size: 0.7rem;
     font-weight: 700;
     margin: 0;
+    padding-bottom: 16%;
   }
 
   .second-summit {
-    background-image: url(./properties/summit-second.png);
+    background-image: linear-gradient(
+        rgba(200, 0, 0, 0.4),
+        rgba(220, 0, 0, 0.4)
+      ),
+      url(./properties/summit-second.png);
+    /* background-image: url(./properties/summit-second.png); */
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 5%;
   }
   /* Past Summits Ends */
+  /* Prtner Mobile Starts */
+  .partner-mobile {
+    background-color: #414246;
+  }
+
+  .partnermobile-intro {
+    padding-top: 3.418%;
+  }
+
+  .partnermobile-intro h2 {
+    color: #FFFFFF;;
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-align: center;
+  }
+
+  .partnermobile-intro-border {
+    width: 2rem;
+    border-bottom: 2px solid rgb(239, 81, 60);
+    margin: 0 auto 1.5625rem;
+  }
+
+  .partnermobile-logo {
+    padding-bottom: 5.658%;
+    text-align: center;
+  }
+
+  .partnermobile-logo img {
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 3%;
+  }
+  /* Partner Mobile Ends */
+  /* Rights Starts */
+  .rigts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rights-img-desktop {
+    display: none;
+  }
+
+  .rights-img-mobile {
+    width: 30%;
+  }
+
+  .rights-msg {
+    display: flex;
+    align-items: center;
+    width: 72%;
+    padding-left: 4.514%;
+  }
+
+  .rights-msg h4 {
+    color: #3B3E45;
+    font-size: 0.625rem;
+    font-weight: 700;
+  }
+  /* Rights Ends */
 }
 
 @media only screen and (min-width: 768px) {
   .ham-popup {
+    display: none;
+  }
+  .partner-mobile {
     display: none;
   }
 
@@ -608,4 +675,36 @@ html {
     margin: 0;
   }
   /*  Past Summits Ends */
+   /* Rights Starts */
+   .rigts {
+    display: flex;
+    justify-content: space-between;
+    background: #414246;
+    padding-left: 5%;
+  }
+
+  .rights-img-mobile{
+    display: none;
+  }
+  
+  .rights-img-desktop {
+    width: 15%;
+    margin-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .rights-msg {
+    display: flex;
+    align-items: center;
+    width: 72%;
+    padding-left: 4.514%;
+  }
+
+  .rights-msg h4 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  /* Rights Ends */
 }
