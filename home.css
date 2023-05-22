@@ -553,7 +553,9 @@ html {
     font-size: 0.88rem;
     padding-top: 0.8rem;
   }
+
   /* Featured Speaker Starts */
+
   /* Partner Starts */
   .partner {
     background-color: #414246;
@@ -585,6 +587,7 @@ html {
     width: 19%;
     padding-right: 3.125rem;
   }
+
   /* Partner Ends */
 
   /* Rights Starts */
