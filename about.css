@@ -99,11 +99,21 @@ html {
   /* navbar ends */
 
   /* Summit Description Stars */
+
+  .summitdescription-details-desktop {
+    display: none;
+  }
+
+  .summitjoin-border{
+    display: none;
+
+  }
   .summit-description {
     background-image: url(./properties/neural-network-two.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    margin-top: 0.5%;
   }
 
   .heading-wrapper {
@@ -240,6 +250,88 @@ html {
   /* navbar ends */
 
   /* Summit Description Starts */
+  .summit-description {
+    background-image: url(./properties/neural-network-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    margin-top: 0.2%;
+  }
+  .heading-wrapper {
+    display: none;
+  }
 
+  .summitjoin-wrapper {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%; 
+    padding-top: 7%;
+  }
+
+  .summitdescription-join {
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .summitjoin-border {
+    width: 4rem;
+    border-bottom: 3px solid #fff;
+    margin: 0 auto 1rem;
+    padding-top: 2%;
+  }
+
+  .summitdescription-details {
+    background: rgb(254, 250, 224, 0.4);
+    border: 1.5rem solid rgb(255, 255, 255, 0.4);
+    color: #000;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: none;
+  }
+
+  .summitdescription-details-desktop {
+    background: rgb(254, 250, 224, 0.7);
+    border-left: 65px solid rgb(255, 255, 255, 0.6);
+    border-right: 65px solid rgb(255, 255, 255, 0.6);
+    border-top: 35px solid rgb(255, 255, 255, 0.6);
+    border-bottom: 35px solid rgb(255, 255, 255, 0.6);
+    color: #000;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 8%;
+  }
+
+  .summitdescription-details-desktop p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 35px;
+  }
+
+  .summitcontact-email {
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+  }
+
+  .summitcontact-email p {
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+
+  .summit-mail {
+    padding-bottom: 9%;
+  }
+
+  .summit-mail a {
+    color: #fff;
+    font-weight: 800;
+  }
   /* Summit Description Ends */
 }
