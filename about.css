@@ -402,6 +402,10 @@ html {
     padding-bottom: 0.42rem;
   }
 
+  .nav-banner-list a {
+    text-decoration: none;
+  }
+
   .nav-banner-item {
     list-style-type: none;
     color: #fff;

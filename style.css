@@ -303,6 +303,10 @@ html {
     padding-bottom: 0.42rem;
   }
 
+  .nav-banner-list a {
+    text-decoration: none;
+  }
+
   .nav-banner-item {
     list-style-type: none;
     color: #fff;
@@ -498,6 +502,7 @@ html {
   .speaker-intro {
     margin-bottom: 4%;
     text-align: center;
+    padding-top: 4%;
   }
 
   .speaker-intro h2 {
