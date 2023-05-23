@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Lato', 'Gothic A1', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Ham starts */
+  .ham-popup {
+    background: #343a40;
+    position: fixed;
+    height: 98%;
+    width: 100%;
+    z-index: 99;
+    display: none;
+  }
+
+  .ham-popup-ul {
+    padding-top: 10%;
+  }
+
+  .cross-btn {
+    border: none;
+    background: none;
+    float: right;
+  }
+
+  .ham-popup-item {
+    list-style: none;
+    padding-right: 3rem;
+    padding-top: 1.6%;
+  }
+
+  .ham-popup-link {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  /* Ham Ends */
+
+  /* nav banner starts */
+  .nav-banner {
+    display: none;
+  }
+
+  /* nav banner ends */
+
+  /* navbar starts */
+  .hambar {
+    border: none;
+    background: none;
+    padding: 0;
+  }
+
+  .navbar-content {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .hambar img {
+    width: 50%;
+  }
+
+  .navbar-brand img {
+    max-width: 50%;
+    margin-left: 50%;
+  }
+
+  .navbar-intro {
+    box-shadow: 0 15px 10px -15px #111;
+  }
+
+  .navbar-wrapper {
+    display: none;
+  }
+
+  .navbar {
+    position: inherit;
+  }
+
+  /* navbar ends */
+
+  /* Summit Description Stars */
+
+  .summitdescription-details-desktop {
+    display: none;
+  }
+
+  .summitjoin-border {
+    display: none;
+  }
+
+  .summit-description {
+    background-image: url(./properties/neural-network-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    margin-top: 0.5%;
+  }
+
+  .heading-wrapper {
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .summitdescription-intro-greet {
+    color: #fff;
+  }
+
+  .summitjoin-wrapper {
+    text-align: center;
+  }
+
+  .summitdescription-join {
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .summitdescription-details {
+    background: rgb(254, 250, 224, 0.4);
+    border: 1.5rem solid rgb(255, 255, 255, 0.4);
+    color: #000;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 14.6%;
+  }
+
+  .summitdescription-details p {
+    margin-bottom: 0;
+  }
+
+  .summitcontact-email {
+    margin-top: 7.65%;
+  }
+
+  .summitcontact-email p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .summit-mail {
+    text-align: center;
+    padding-bottom: 7.7%;
+  }
+
+  .summit-mail a {
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.75rem;
+  }
+
+  /* Summint Description Ends */
+
+  /* Summit Logo Starts */
+  .summit-logo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  .summit-logo-intro {
+    text-align: center;
+    padding-left: 19.716%;
+    padding-right: 19.716%;
+    padding-top: 5%;
+  }
+
+  .summit-logo-intro h2 {
+    color: #2c2c2c;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .summitlogointro-border {
+    width: 2rem;
+    border-bottom: 2px solid #a04038;
+    margin: 0 auto 1.25rem;
+    padding-top: 2%;
+  }
+
+  .summitlogo-description {
+    text-align: center;
+    padding-left: 2.674%;
+    padding-right: 2.674%;
+    padding-bottom: 9.326%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  .summitlogo-description p {
+    color: #838383;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .summit-logo-img {
+    padding-left: 18%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 5.1%;
+  }
+
+  .summit-logo-img img {
+    width: 80%;
+  }
+
+  .summit-logo-img-desktop {
+    display: none;
+  }
+
+  .summitlogo-description-desktop {
+    display: none;
+  }
+
+  /* Summit Logo Ends */
+
+  /* Past Summits Starts */
+  .summits {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pastsummit-intro {
+    text-align: center;
+  }
+
+  .pastsummit-intro h2 {
+    color: #2c2c2c;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .pastsummitintro-border {
+    width: 2rem;
+    border-bottom: 2px solid #a04038;
+    margin: 0 auto 1.25rem;
+    padding-top: 2.665%;
+  }
+
+  .pastsummit-description {
+    text-align: center;
+  }
+
+  .pastsummit-description p {
+    color: #838383;
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin: 0;
+  }
+
+  .first-summit {
+    background-image:
+      linear-gradient(
+        rgba(200, 0, 0, 0.4),
+        rgba(220, 0, 0, 0.4)
+      ),
+      url(./properties/first_summit.png);
+
+    /* background-image: url(./properties/first_summit.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+  }
+
+  .summits-year {
+    text-align: center;
+  }
+
+  .summits-year h3 {
+    font-weight: 800;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 16%;
+  }
+
+  .summits-area {
+    text-align: center;
+    color: #fff;
+  }
+
+  .summits-area p {
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 16%;
+  }
+
+  .second-summit {
+    background-image:
+      linear-gradient(
+        rgba(200, 0, 0, 0.4),
+        rgba(220, 0, 0, 0.4)
+      ),
+      url(./properties/summit-second.png);
+
+    /* background-image: url(./properties/summit-second.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+  }
+
+  /* Past Summits Ends */
+
+  /* Prtner Mobile Starts */
+  .partner-mobile {
+    background-color: #414246;
+  }
+
+  .partnermobile-intro {
+    padding-top: 3.418%;
+  }
+
+  .partnermobile-intro h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-align: center;
+  }
+
+  .partnermobile-intro-border {
+    width: 2rem;
+    border-bottom: 2px solid rgb(239, 81, 60);
+    margin: 0 auto 1.5625rem;
+  }
+
+  .partnermobile-logo {
+    padding-bottom: 5.658%;
+    text-align: center;
+  }
+
+  .partnermobile-logo img {
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 3%;
+  }
+
+  /* Partner Mobile Ends */
+
+  /* Rights Starts */
+  .rigts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rights-img-desktop {
+    display: none;
+  }
+
+  .rights-img-mobile {
+    width: 30%;
+  }
+
+  .rights-msg {
+    display: flex;
+    align-items: center;
+    width: 72%;
+    padding-left: 4.514%;
+  }
+
+  .rights-msg h4 {
+    color: #3b3e45;
+    font-size: 0.625rem;
+    font-weight: 700;
+  }
+
+  /* Rights Ends */
+}
+
+@media only screen and (min-width: 768px) {
+  .ham-popup {
+    display: none;
+  }
+
+  .partner-mobile {
+    display: none;
+  }
+
+  /* nav banner starts */
+  .nav-banner {
+    background: #3e3e3e;
+  }
+
+  .nav-banner-list {
+    display: flex;
+    justify-content: end;
+    padding-right: 13%;
+    margin-block-end: 0;
+    padding-bottom: 0.42rem;
+  }
+
+  .nav-banner-list a {
+    text-decoration: none;
+  }
+
+  .nav-banner-item {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 1.26rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.79rem;
+  }
+
+  /* nav banner ends */
+
+  /* navbar starts */
+  .hambar {
+    display: none;
+  }
+
+  .navbar-intro {
+    box-shadow: 0 15px 10px -15px #111;
+  }
+
+  .navbar {
+    padding-top: 0.84rem;
+  }
+
+  #no-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .navbar-brand {
+    padding-top: 0;
+    padding-left: 9%;
+  }
+
+  .navbar-brand img {
+    max-width: 50%;
+  }
+
+  .navbar-ul {
+    display: flex;
+  }
+
+  .navbar-item {
+    padding-right: 3rem;
+    padding-top: 1.6%;
+    list-style: none;
+  }
+
+  .navbar-link {
+    color: #868686;
+    font-weight: 800;
+    font-size: 0.96rem;
+    text-decoration: none;
+  }
+
+  /* navbar ends */
+
+  /* Summit Description Starts */
+  .summit-description {
+    background-image: url(./properties/neural-network-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    margin-top: 0.2%;
+  }
+
+  .heading-wrapper {
+    display: none;
+  }
+
+  .summitjoin-wrapper {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7%;
+  }
+
+  .summitdescription-join {
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .summitjoin-border {
+    width: 4rem;
+    border-bottom: 3px solid #fff;
+    margin: 0 auto 1rem;
+    padding-top: 2%;
+  }
+
+  .summitdescription-details {
+    background: rgb(254, 250, 224, 0.4);
+    border: 1.5rem solid rgb(255, 255, 255, 0.4);
+    color: #000;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: none;
+  }
+
+  .summitdescription-details-desktop {
+    background: rgb(254, 250, 224, 0.7);
+    border-left: 65px solid rgb(255, 255, 255, 0.6);
+    border-right: 65px solid rgb(255, 255, 255, 0.6);
+    border-top: 35px solid rgb(255, 255, 255, 0.6);
+    border-bottom: 35px solid rgb(255, 255, 255, 0.6);
+    color: #000;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 8%;
+  }
+
+  .summitdescription-details-desktop p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 35px;
+  }
+
+  .summitcontact-email {
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+  }
+
+  .summitcontact-email p {
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+
+  .summit-mail {
+    padding-bottom: 9%;
+  }
+
+  .summit-mail a {
+    color: #fff;
+    font-weight: 800;
+  }
+
+  /* Summit Description Ends */
+
+  /* Summit Logo Starts */
+
+  .summit-logo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  .summit-logo-intro {
+    text-align: center;
+    padding-top: 6.348%;
+  }
+
+  .summitlogointro-border {
+    width: 3rem;
+    border-bottom: 2px solid #a04038;
+    margin: 0 auto 1.25rem;
+    padding-top: 1%;
+  }
+
+  .summitlogo-description {
+    display: none;
+  }
+
+  .summit-logo-intro h2 {
+    color: #2c2c2c;
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin: 0;
+  }
+
+  .summit-logo-img-desktop {
+    text-align: center;
+    margin-top: 2.431%;
+    padding-bottom: 4.514%;
+  }
+
+  .summit-logo-img-desktop img {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  .summit-logo-img {
+    text-align: center;
+    display: none;
+  }
+
+  .summitlogo-description-desktop {
+    text-align: center;
+    padding-left: 21.674%;
+    padding-right: 21.674%;
+  }
+
+  .summitlogo-description-desktop p {
+    color: #838383;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /* Summit Logo Ends */
+
+  /* Past Summits Starts */
+
+  .summits {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.431%;
+    margin-bottom: 4%;
+  }
+
+  .pastsummit-intro {
+    text-align: center;
+  }
+
+  .pastsummit-intro h2 {
+    color: #2c2c2c;
+    font-weight: 700;
+    font-size: 1.875rem;
+    padding-top: 5.139%;
+    margin: 0;
+  }
+
+  .pastsummitintro-border {
+    width: 3rem;
+    border-bottom: 2px solid #a04038;
+    margin: 0 auto 1.25rem;
+    padding-top: 1%;
+  }
+
+  .pastsummit-description {
+    text-align: center;
+    padding-left: 7.327%;
+    padding-right: 7.327%;
+  }
+
+  .pastsummit-description p {
+    color: #838383;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .first-summit {
+    background-image:
+      linear-gradient(
+        rgba(200, 0, 0, 0.4),
+        rgba(220, 0, 0, 0.4)
+      ),
+      url(./properties/first_summit.png);
+    background-repeat: no-repeat;
+    margin-right: 1.7367%;
+    background-size: cover;
+    width: 35%;
+  }
+
+  .second-summit {
+    background-image:
+      linear-gradient(
+        rgba(200, 0, 0, 0.4),
+        rgba(220, 0, 0, 0.4)
+      ),
+      url(./properties/summit-second.png);
+    background-repeat: no-repeat;
+    margin-right: 1.7367%;
+    background-size: cover;
+    width: 35%;
+  }
+
+  .summits-year {
+    text-align: center;
+    padding-top: 15%;
+  }
+
+  .summits-year h3 {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+  }
+
+  .summits-area {
+    text-align: center;
+    margin-top: 4%;
+    padding-bottom: 15%;
+  }
+
+  .summits-area p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  /*  Past Summits Ends */
+
+  /* Rights Starts */
+  .rigts {
+    display: flex;
+    justify-content: space-between;
+    background: #414246;
+    padding-left: 5%;
+  }
+
+  .rights-img-mobile {
+    display: none;
+  }
+
+  .rights-img-desktop {
+    width: 15%;
+    margin-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .rights-msg {
+    display: flex;
+    align-items: center;
+    width: 72%;
+    padding-left: 4.514%;
+  }
+
+  .rights-msg h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  /* Rights Ends */
+}
