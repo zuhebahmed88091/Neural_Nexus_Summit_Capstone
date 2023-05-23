@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Capstone Project -> Module 1</b></h3>
+  <h3><b>Neural Nexus Summit Capstone Prject</b></h3>
 </div>
 # :green_book: Table of Contents
 
@@ -24,14 +24,9 @@
 - [:pray: Acknowledgements](#acknowledgements)
 - [:memo: License](#license)
 
-# :book: Capstone Project-Module 1 <a name="about-project"></a>
+# :book: Capstone Project-Module 1 <a name="Neural Nexus Summit"></a>
 
-**Capstone Project-Module 1** is the capstone project of module 1.Here used ->
-- HTML
-- CSS
-- JavaScript
-
-[Project Presentation](Will be added)
+**Neural Nexus Summit** is the capstone project of module 1.It is a simple website and it can be used for any kind of conference and summit. Here I used HTML, CSS, Bootstrap to design site and used Javascript for dynamic functionality.
 
 ## 🛠 Built With <a name="built-with"></a>
 
